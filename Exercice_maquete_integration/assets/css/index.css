@@ -1,0 +1,53 @@
+/* Feuille de style pour la page d'acueil */
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #191919;
+}
+@font-face {
+    font-family: "Lora" ;
+    src: url(Exercice_maquette);
+}
+nav{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+#Logo{
+    width: 3%;
+    margin: 10px;
+}
+nav div a{
+    text-decoration: none;
+    color: darkgray;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    margin: 25px;
+}
+.navigation div:first-child {
+    width: 33.33%;
+    background-image: url("../image/s1b1.jpeg");
+    margin: 50px;
+}
+.navigation a:first-child{
+    text-decoration: none;
+    color:white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+    
+   
