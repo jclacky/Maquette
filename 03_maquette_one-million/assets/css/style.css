@@ -1,4 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&display=swap');
 :root{
+    font-size: 62.5;
     --orange: #e74c3c;
     font-family: Arial ,sans-serif;
 }
@@ -10,10 +15,22 @@ background-size: cover;
 align-items: center;
 
 }
+h1{
+    font-size: 4rem;
+    margin: 5rem 14rem ;
+    padding-top: 20px;
+    font-family:   "arial", serif;
+    font-weight: 500;
+}
+nav a {
+    text-decoration: none;
+    color: gray;
+    font-size: 1.5rem;
+}
 .containerfluid{
     width: 50%;
 }
-.section1 h1, p {
+.section1 h1,.section1 p {
     color: #fff;
     
 }
@@ -26,4 +43,45 @@ main{
 }
 .btn:hover{
     background-color: #b83e30;
+}
+.container{
+    width: 1140px;
+}
+ h3{
+    color: var(--orange);
+    font-family: 'Roboto slab' serif;
+    text-transform: uppercase;
+}
+hr{
+    
+    width: 7%;
+    color: var(--orange);
+    margin: 0 auto;
+   
+}
+.section2 p{
+    margin: 30px;
+    padding: 30px;
+}
+.icon{
+    color: #fff;
+    font-size: 2rem;
+    background-color: rgb(71, 71, 71);
+    border-radius: 50%;
+    border-width: 4rem;
+    background-size: 20%;
+}
+.btn2{
+    color: #e74c3c;
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: .5rem;
+    padding: .5rem;
+}
+.btn2:hover{
+    background-color: rgb(144, 144, 144);
+}
+footer{
+    padding-top: 5rem;
+    background-color: var(--orange);
 }
